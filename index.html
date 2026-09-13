@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Reliable trailer transportation services across India. Shreya Transport connects businesses and individuals with authorized trailer operators for safe and efficient goods transportation.">
+  <meta name="keywords" content="trailer transport, trailer transportation, goods transport India, heavy transport, logistics, transport agent, Indore trailer service">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Shreya Transport | Trailer Transportation Across India">
+  <meta property="og:description" content="Reliable trailer transportation for all types of goods across India.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/transport-collage.png">
+  <title>Shreya Transport | Trailer Transportation Across India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23f97316'/%3E%3Cpath fill='white' d='M17 55h44V35h14l12 14v6h-7a9 9 0 1 1-18 0H37a9 9 0 1 1-18 0h-2V55zm50-15v9h15l-8-9H67zM28 65a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm43 0a5 5 0 1 0 0-10 5 5 0 0 0 0 10z'/%3E%3C/svg%3E">
+</head>
+<body x-data="site()" @keydown.escape="mobileOpen=false">
+
+  <header class="site-header" :class="{ 'scrolled': scrolled }" x-data>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Shreya Transport home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M7 25h22V15h7l6 7v3h-4.2a5.8 5.8 0 1 1-11.6 0H20a5.8 5.8 0 1 1-11.6 0H7v-0Z" fill="currentColor"/><circle cx="14" cy="31" r="4" fill="currentColor"/><circle cx="33" cy="31" r="4" fill="currentColor"/></svg>
+        </span>
+        <span>
+          <strong>Shreya</strong><small>TRANSPORT</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">How It Works</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="nav-cta" href="https://wa.me/919753227510" target="_blank" rel="noopener">
+        <span class="wa-icon">◔</span> WhatsApp
+      </a>
+
+      <button class="menu-btn" @click="mobileOpen=!mobileOpen" :aria-expanded="mobileOpen" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" x-show="mobileOpen" x-transition @click.outside="mobileOpen=false" x-cloak>
+      <a href="#services" @click="mobileOpen=false">Services</a>
+      <a href="#about" @click="mobileOpen=false">About Us</a>
+      <a href="#process" @click="mobileOpen=false">How It Works</a>
+      <a href="#coverage" @click="mobileOpen=false">Coverage</a>
+      <a href="#contact" @click="mobileOpen=false">Contact</a>
+      <a class="mobile-whatsapp" href="https://wa.me/919753227510" target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> PAN-INDIA TRAILER TRANSPORTATION</div>
+          <h1>Move your goods.<br><em>We'll move the trailer.</em></h1>
+          <p class="hero-text">Reliable trailer transportation for businesses and individuals across India — arranged through our network of authorized trailer operators.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/919753227510?text=Hello%20Shreya%20Transport%2C%20I%20need%20a%20trailer%20for%20goods%20transportation." target="_blank" rel="noopener">
+              Get a Transport Quote <span>↗</span>
+            </a>
+            <a class="btn btn-ghost" href="tel:+919981067510">Call +91 99810 67510</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>All India</strong><span>Service coverage</span></div>
+            <i></i>
+            <div><strong>Authorized</strong><span>Trailer partners</span></div>
+            <i></i>
+            <div><strong>Flexible</strong><span>Transport solutions</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="hero-image-frame">
+            <img src="images/transport-collage.png" alt="Trailer transportation and heavy goods logistics" loading="eager">
+            <div class="image-badge"><span class="pulse"></span><div><strong>Transporting across India</strong><small>Reliable trailer partners</small></div></div>
+          </div>
+          <div class="floating-card floating-card-top"><span>✓</span><div><strong>Trusted Network</strong><small>Authorized operators</small></div></div>
+          <div class="floating-card floating-card-bottom"><strong>24/7</strong><small>Requirement support</small></div>
+        </div>
+      </div>
+      <div class="hero-road" aria-hidden="true"></div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip-inner">
+        <span>TRAILER TRANSPORT</span><b>•</b><span>HEAVY GOODS</span><b>•</b><span>INDUSTRIAL CARGO</span><b>•</b><span>PAN INDIA SERVICE</span><b>•</b><span>RELIABLE PARTNERS</span>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow dark"><span></span> WHAT WE DO</div>
+            <h2>Transport solutions<br><em>built around your cargo.</em></h2>
+          </div>
+          <p>Tell us what you need to move, where it needs to go, and when. We help arrange a suitable trailer through our authorized transport network.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured">
+            <div class="service-number">01</div>
+            <div class="service-icon">▱</div>
+            <h3>Trailer Transportation</h3>
+            <p>Trailer arrangements for commercial and industrial goods across destinations in India.</p>
+            <a href="#contact">Enquire now <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-number">02</div>
+            <div class="service-icon">◫</div>
+            <h3>Heavy & Industrial Goods</h3>
+            <p>Solutions for machinery, equipment, steel, structures and other heavy cargo.</p>
+            <a href="#contact">Enquire now <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <div class="service-icon">⌁</div>
+            <h3>General Cargo</h3>
+            <p>Flexible trailer options for a wide range of commercial and general goods.</p>
+            <a href="#contact">Enquire now <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <div class="service-number">04</div>
+            <div class="service-icon">◎</div>
+            <h3>Pan-India Movement</h3>
+            <p>Connect your origin and destination with dependable transport partners across India.</p>
+            <a href="#contact">Enquire now <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="images/transport-collage.png" alt="Trailer carrying goods on an Indian highway" loading="lazy">
+          <div class="about-stamp"><strong>INDIA</strong><span>Wide<br>coverage</span></div>
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow dark"><span></span> ABOUT SHREYA TRANSPORT</div>
+          <h2>Your cargo deserves<br><em>the right trailer.</em></h2>
+          <p>Shreya Transport helps businesses and individuals arrange trailer transportation for goods across India. We work as a commission-based transport agent, connecting customers with authorized and reliable trailer operators.</p>
+          <p>Instead of making you search for a suitable vehicle yourself, you share your cargo and route requirements with us. We coordinate with our transport partners to help find the right trailer for the job.</p>
+          <div class="check-list">
+            <div><span>✓</span> Authorized trailer network</div>
+            <div><span>✓</span> Pan-India transportation support</div>
+            <div><span>✓</span> Solutions based on cargo requirements</div>
+            <div><span>✓</span> Simple booking coordination</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section process-section">
+      <div class="container">
+        <div class="center-heading">
+          <div class="eyebrow"><span></span> SIMPLE PROCESS</div>
+          <h2>From requirement to <em>road.</em></h2>
+          <p>We keep the coordination simple so you can focus on your business.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step"><span>01</span><div class="step-icon">✦</div><h3>Share your requirement</h3><p>Tell us the goods, pickup location, destination and preferred timing.</p></div>
+          <div class="process-line"></div>
+          <div class="process-step"><span>02</span><div class="step-icon">⌘</div><h3>We arrange a trailer</h3><p>We coordinate with authorized trailer operators suitable for your requirement.</p></div>
+          <div class="process-line"></div>
+          <div class="process-step"><span>03</span><div class="step-icon">➜</div><h3>Get moving</h3><p>Once confirmed, the trailer is arranged for your goods transportation.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="coverage" class="section coverage-section">
+      <div class="container coverage-grid">
+        <div>
+          <div class="eyebrow dark"><span></span> WHERE WE OPERATE</div>
+          <h2>One network.<br><em>All of India.</em></h2>
+          <p>We help arrange trailer transportation between major cities, industrial areas and destinations across India.</p>
+          <div class="coverage-tags">
+            <span>North India</span><span>South India</span><span>East India</span><span>West India</span><span>Central India</span><span>Industrial Routes</span>
+          </div>
+        </div>
+        <div class="india-graphic">
+          <div class="india-outline">INDIA</div>
+          <div class="route-dot d1"></div><div class="route-dot d2"></div><div class="route-dot d3"></div><div class="route-dot d4"></div>
+          <svg class="route-lines" viewBox="0 0 500 380" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M90 90 C180 120 230 180 360 120 S410 210 330 280" />
+            <path d="M120 300 C190 240 250 200 360 120" />
+          </svg>
+          <div class="map-label l1">NORTH</div><div class="map-label l2">WEST</div><div class="map-label l3">EAST</div><div class="map-label l4">SOUTH</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="container">
+        <div class="section-heading compact">
+          <div><div class="eyebrow dark"><span></span> TRANSPORT IN ACTION</div><h2>Built for <em>the road ahead.</em></h2></div>
+          <p>From covered loads to industrial equipment, we help match cargo with suitable trailer solutions.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-main"><img src="images/transport-collage.png" alt="Trailer transport service" loading="lazy"><span>TRAILER TRANSPORTATION</span></div>
+          <div class="gallery-card"><div class="gallery-icon">⚙</div><strong>Industrial Cargo</strong><small>Machinery & equipment</small></div>
+          <div class="gallery-card dark-card"><div class="gallery-icon">➜</div><strong>Long Distance</strong><small>Pan-India movement</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-inner">
+        <div><div class="eyebrow"><span></span> NEED A TRAILER?</div><h2>Let's get your goods<br><em>on the road.</em></h2></div>
+        <div class="cta-actions"><a class="btn btn-light" href="https://wa.me/919753227510?text=Hello%20Shreya%20Transport%2C%20I%20would%20like%20to%20discuss%20a%20trailer%20transport%20requirement." target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a><a class="phone-link" href="tel:+919981067510">+91 99810 67510</a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <div class="eyebrow dark"><span></span> CONTACT US</div>
+          <h2>Tell us what you<br><em>need to move.</em></h2>
+          <p>For trailer requirements, route enquiries and transportation coordination, contact us directly.</p>
+          <div class="contact-list">
+            <a href="tel:+919981067510"><span class="contact-icon">☎</span><div><small>CALL US</small><strong>+91 99810 67510</strong></div></a>
+            <a href="https://wa.me/919753227510" target="_blank" rel="noopener"><span class="contact-icon">◔</span><div><small>WHATSAPP</small><strong>+91 97532 27510</strong></div></a>
+            <div><span class="contact-icon">⌖</span><div><small>ADDRESS</small><strong>Patel Market, Kelod Kartal, Rau Bypass,<br>Indore, Madhya Pradesh 452020</strong></div></div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card-top"><span>QUICK ENQUIRY</span><span>01 / 01</span></div>
+          <h3>Start your transport enquiry</h3>
+          <p>WhatsApp us with your pickup, destination and cargo details.</p>
+          <a class="btn btn-primary full" href="https://wa.me/919753227510?text=Hello%20Shreya%20Transport.%0A%0APickup%20location%3A%20%0ADestination%3A%20%0AGoods%2FCargo%3A%20%0APreferred%20date%3A%20%0A%0APlease%20help%20arrange%20a%20suitable%20trailer." target="_blank" rel="noopener">Send Requirement on WhatsApp <span>↗</span></a>
+          <div class="enquiry-note">Typically, share <b>pickup + destination + cargo type</b> for a faster response.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"><svg viewBox="0 0 48 48" fill="none"><path d="M7 25h22V15h7l6 7v3h-4.2a5.8 5.8 0 1 1-11.6 0H20a5.8 5.8 0 1 1-11.6 0H7v-0Z" fill="currentColor"/><circle cx="14" cy="31" r="4" fill="currentColor"/><circle cx="33" cy="31" r="4" fill="currentColor"/></svg></span><span><strong>Shreya</strong><small>TRANSPORT</small></span></a>
+      <p>Reliable trailer transportation arrangements for businesses and individuals across India.</p>
+      <div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a><a href="https://wa.me/919753227510" target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span x-text="year"></span> Shreya Transport. All rights reserved.</span><span>Trailer Transportation • Pan India</span></div>
+  </footer>
+
+  <a class="floating-wa" href="https://wa.me/919753227510" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">◔<span>WhatsApp</span></a>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
