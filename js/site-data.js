@@ -6,8 +6,8 @@
  */
 const siteData = {
   company: {
-    name: "Shreya Transport",
-    shortName: "Shreya",
+    name: "Shreya Transport & Logistics",
+    shortName: "STL",
     tagline: "Trailer Transportation Across India",
     description:
       "Reliable trailer transportation for businesses and individuals across India. We connect customers with authorized and reliable trailer operators according to cargo and route requirements.",
@@ -15,7 +15,7 @@ const siteData = {
     phoneHref: "tel:+919981067510",
     whatsapp: "+91 97532 27510",
     whatsappNumber: "919753227510",
-    email: "info@shreyatransport.example",
+    email: "shreyatransportandlogistics@gmail.com",
     address: "Patel Market, Kelod Kartal, Rau Bypass, Indore, Madhya Pradesh 452020",
     serviceArea: "All India",
     hours: "Monday – Sunday, 8:00 AM – 8:00 PM"
